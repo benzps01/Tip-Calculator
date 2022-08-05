@@ -1,3 +1,82 @@
 body{
     background-color: #878de8;
 }
+
+.wrapper{
+    background-color: #0e0d2b;
+    width: 500px;
+    height: 360px;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.input1{
+    padding-top: 50px;
+    color: white;
+    margin-left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bill_container{
+    background: None;   
+    border-radius: 1.4rem;
+    display: flex;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 20px;
+    padding: 0 0.8rem;
+    margin-top: 10px;
+    color: white;
+}
+
+#totalBill{
+    margin-top: 2px;
+    margin-left: 3px;
+    color: white;
+    background: None;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    padding: none;
+}
+
+.tip_container{
+    background: None;   
+    border-radius: 1.4rem;
+    display: flex;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 20px;
+    padding: 0px 5px 5px 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+.input2{
+    padding-top: 20px;
+    color: white;
+    margin-left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tipPercent{
+    margin-top:1px;
+    margin-left: 3px;
+    color: white;
+    background: None;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    padding: none;
+}
+
+.bottom_container{
+    background: none;
+}
+
+.result{
+    color: white;
+    margin-top: 70px;
+    margin-left: 190px;
+    font-family: 'Courier New', Courier, monospace;
+}
