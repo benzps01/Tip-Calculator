@@ -80,3 +80,10 @@ body{
     margin-left: 190px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.total{
+    color:white;
+    background: none;
+    margin-left: 230px;
+    font-family: 'Courier New', Courier, monospace;
+}
