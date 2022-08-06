@@ -3,7 +3,6 @@
     <head>
         <title>Tip Calculator</title>
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="app.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -11,18 +10,19 @@
                 <div class="input1">Total Bill</div>
                 <div class="bill_container">
                     <span style="margin-top: 3px; margin-left: 5px;" >$</span>
-                    <input type="text" placeholder="0.00" id="totalBill">
+                    <input type="text" placeholder="0.00" id="totalBill" onkeyup="calculateBill()">
                 </div>
                 <div class="input2">Total Tip</div>
                 <div class="tip_container">
                     <span style="margin-top: 3px; margin-left: 5px;" >%</span>
-                    <input type="text" placeholder="10" id="tipPercent">
+                    <input type="text" placeholder="10" id="tipPercent" onkeyup="calculateBill()">
                 </div>
             </div>
             <div class="bottom container">
                 <div class="result">Final Amount</div>
-                <div class="total" style="color: white;">$0.00</div>
+                <div class="total" style="color: white;" id="finalAmount">$0.00</div>
             </div>
         </div>
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
