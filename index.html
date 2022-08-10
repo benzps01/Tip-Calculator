@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="heading">Tip Calculator</div>
+        <div class="wrapper">
+            <div class="top container">
+                <div class="input1">Total Bill</div>
+                <div class="bill_container">
+                    <span style="margin-top: 3px; margin-left: 5px;" >$</span>
+                    <input type="text" placeholder="0.00" id="totalBill" onkeyup="calculateBill()" autofocus>
+                </div>
+                <div class="input2">Total Tip</div>
+                <div class="tip_container">
+                    <span style="margin-top: 3px; margin-left: 10px;" >%</span>
+                    <input type="text" placeholder="10" id="tipPercent" onkeyup="calculateBill()">
+                </div>
+                <div class="input3">No. of People</div>
+                <div class="totalPeople">
+                    <button type="button" id="increase" onclick="increasePeople()">+</button>
+                    <span class="tPeople" style="color: white;" id="People">1</span>
+                    <button type="button" id="decrease" onclick="decreasePeople()">-</button>
+                </div>
+            </div>
+            <div class="bottom_container">
+                <div class="result">Per Person</div>
+                <div class="total" style="color: white;" id="finalAmount">$0.00</div>
+            </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
