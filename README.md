@@ -5,7 +5,7 @@ This is an implementation of a Bill Spliting application. This application is cr
 ## The basic working of this application is:
 
 - Input Total Bill
-- Input the percentage of Tip to be give
+- Input the percentage of Tip to be given
 - Input the number of people the total bill to be splitted into
 - Result is displayed as the amount every person owes
 
