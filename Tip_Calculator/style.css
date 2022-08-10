@@ -6,29 +6,30 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     font-weight: bold;
+    max-width: 340px;
     color: white;
-    margin-left: 600px;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 
 .wrapper{
     background-color: #0e0d2b;
-    width: 500px;
+    width: 40%;
     height: 400px;
+    max-width: 700px;
     justify-content: center;
     border-radius: 25px;
     margin: 100px auto;
 }
 
 .input1{
+    width: 50%;
     padding-top: 50px;
     color: white;
     margin-left: 35px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.bill_container{
-    background: None;   
+.bill_container{  
     border-radius: 1.4rem;
     display: flex;
     font-size: 20px;
@@ -68,6 +69,13 @@ body{
     margin-left: 35px;
     font-family: 'Courier New', Courier, monospace;
 }
+.input2{
+    width: 50%;
+}
+.input3{
+    width: 50%;
+}
+
 
 #tipPercent{
     margin-top:1px;
@@ -109,19 +117,24 @@ body{
 
 .bottom_container{
     background: none;
+    margin-top: 70px;
 }
 
 .result{
     color: white;
-    margin-top: 70px;
-    margin-left: 210px;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .total{
     color:white;
     background: none;
-    margin-top: 5px;
-    margin-left: 230px;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-device-width: 900px){
+    .wrapper{
+        width: 360px;
+    }
 }
